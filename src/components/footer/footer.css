@@ -1,0 +1,30 @@
+.footer{
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60%;
+      height: 35px;
+      background-color:  sandybrown;
+      opacity: 0.4;
+      margin: 20px 0 0 0 ;
+      border-radius: 25%;
+      color: black;
+     transition-duration: 1.5s;
+      
+}
+
+
+.footerContainer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+}
+.footerContainer:hover > .footer{
+     
+      background-color: sandybrown;
+      color: white;
+      opacity: 0.8;
+      
+}

@@ -1,0 +1,45 @@
+.maincard{
+    display: flex;
+    flex-direction: column;
+height: 250px;
+width: 250px;
+background-color:antiquewhite;
+box-shadow: 0 8px 12px 0 darkgray;
+margin: 15px;
+border-radius: 10%;
+padding: 20px;
+align-items: center;
+transition: 1s;
+transition-timing-function: ease;
+}
+.maincard:hover{
+    width: 264px;
+    box-shadow: 3px 8px 9px 1px lightyellow;
+}
+.Title{
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: darkmagenta;
+    margin: 14px 0 0 0;
+    text-align: center;
+}
+.emoji{
+    display: flex;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+background-color:blanchedalmond;
+align-items: center;
+justify-content: center;
+border: 5px solid white;
+}
+.meaning{
+    text-overflow:ellipsis ;
+width: 220px;
+padding: 8px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: gray;
+font-size: 1em;
+
+}
+
